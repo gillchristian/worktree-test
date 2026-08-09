@@ -10,3 +10,7 @@ tmp/
 # NOT listed here on purpose: .envrc, local.config.json and notes/ are
 # untracked-and-local. `wtx setup` puts them in .git/info/exclude, which is the
 # only exclude git reads for a linked worktree.
+
+# The machine's global gitignore has *.sql, which silently drops migrations from
+# `git add -A`. They are tracked here.
+!db/migrations/*.sql
