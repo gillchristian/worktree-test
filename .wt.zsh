@@ -31,6 +31,7 @@ skip=(
 # once the parent PR is merged.
 nested=(
   notes:mirror:fold:kb
+  shared:link
 )
 
 ports=(4311:web)
