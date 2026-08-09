@@ -1,0 +1,9 @@
+{
+  "name": "worktree-test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node src/server.js --port 4311",
+    "build": "mkdir -p dist && cp src/server.js dist/"
+  }
+}
